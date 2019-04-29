@@ -10,6 +10,8 @@ The result will be an array [hour, min, sec] which is the time needed in hours, 
 
 If v1 >= v2 then return nil, nothing, null, None or {-1, -1, -1} for C++, C, Go, Nim, [] for Kotlin or "-1 -1 -1".
 
+## Examples:
+
 ```
 race(720, 850, 70) => [0, 32, 18] or "0 32 18"
 race(80, 91, 37)  => [3, 21, 49] or "3 21 49"
